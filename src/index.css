@@ -1,0 +1,11 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.todo-app {
+  margin: 2rem auto 0 auto;
+  max-width: 410px;
+}
+
+.top-panel {
+  margin: 1rem 0;
+}
