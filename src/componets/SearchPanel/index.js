@@ -11,4 +11,4 @@ const SearchPanel = ({ value, onSearchChange }) => (
   />
 );
 
-export default SearchPanel;
+export default React.memo(SearchPanel);

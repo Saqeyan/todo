@@ -22,6 +22,7 @@ function App (){
       createTodoItem('Go to worke'),
       createTodoItem('Go to training'),
       createTodoItem('To do homework'),
+      createTodoItem('enjoy new life'),
     ]
 
   );

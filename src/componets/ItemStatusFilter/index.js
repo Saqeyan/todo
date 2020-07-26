@@ -25,5 +25,4 @@ const ItemStatusFilter = ({ filter, onFilterChange }) =>{
       </div>
     );
   };
-  export default ItemStatusFilter;
-
+  export default React.memo(ItemStatusFilter);

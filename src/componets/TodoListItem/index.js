@@ -31,4 +31,4 @@ function TodoListItem({ label, onDelete, done, important, onToggleImportant, onT
   );
 }
 
-export default TodoListItem;
+export default React.memo(TodoListItem);

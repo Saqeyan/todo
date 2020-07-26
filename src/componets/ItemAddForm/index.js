@@ -7,12 +7,16 @@ const ItemAddForm = ({addItem})=> {
  
 
   const onLabelChange = (event) => {
+    
     setValue(  event.target.value )
+    
   }
 
   const onFormSubmit = (e) => {
     e.preventDefault()
+    if(value.trim().length > 0){
     addItem(value);
+    }
     setValue( ('') );
   }
 
@@ -26,7 +30,7 @@ const ItemAddForm = ({addItem})=> {
           value={value}
           className="form-control"
           onChange={onLabelChange}
-          placeholder="What needs to be need"
+          placeholder="Your next step"
         />
         <button
           style = {{width: "116px"}}
@@ -37,6 +41,6 @@ const ItemAddForm = ({addItem})=> {
       </form>
     );
   };
-  export default ItemAddForm;
+  export default React.memo(ItemAddForm);
   
 
